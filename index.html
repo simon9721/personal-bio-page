@@ -3,27 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Bio Page</title>
+    <title>Simon Hwang - Personal Bio Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul class="navbar">
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header Section -->
     <header>
         <h1>Simon Hwang</h1>
         <p>Aspiring Electrical Engineer | Innovative Solutions</p>
     </header>
+
+    <!-- About Me Section -->
     <section id="about">
         <h2>About Me</h2>
-        <p>Hello! I am a fourth-year Electrical Engineering student passionate about improving quality of life through smart engineering solutions.</p>
+        <p>Hello! I am Simon Hwang, a fourth-year Electrical Engineering student passionate about improving quality of life through smart engineering solutions. I have experience in circuit design, signal processing, and power systems, and have worked on projects involving Arduino, current measurement, and energy management.</p>
     </section>
+
+    <!-- Projects Section -->
     <section id="projects">
         <h2>Projects</h2>
-        <ul>
-            <li>Project 1: Innovative Heating System - Improving security and efficiency.</li>
-            <li>Project 2: Arduino Current Measurement - Measuring current using shunt resistors.</li>
+        <div class="projects-list">
+            <div class="project-item">
+                <h3>Innovative Heating System</h3>
+                <p>Developed an IoT-based solution to enhance residential heating efficiency and security.</p>
+            </div>
+            <div class="project-item">
+                <h3>Arduino Current Measurement</h3>
+                <p>Designed and implemented current measurement using shunt resistors and Hall effect sensors.</p>
+            </div>
+            <div class="project-item">
+                <h3>Solar Inverter Design</h3>
+                <p>Worked on a cost-effective solar inverter for residential applications.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>Embedded Systems (Arduino, STM32)</li>
+            <li>Power Electronics and Circuit Design</li>
+            <li>Programming: C++, Python, MATLAB</li>
+            <li>PCB Layout (Altium Designer)</li>
+            <li>Signal Processing and Analysis</li>
         </ul>
     </section>
+
+    <!-- Contact Section -->
     <section id="contact">
         <h2>Contact</h2>
-        <p>Email me at: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+        <p>Feel free to reach out to me at:</p>
+        <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+        <p>Connect with me on <a href="https://www.linkedin.com/in/yourlinkedinprofile" target="_blank">LinkedIn</a></p>
     </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Simon Hwang. All rights reserved.</p>
+    </footer>
 </body>
 </html>
+
